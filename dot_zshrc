@@ -1,0 +1,5 @@
+export DOTFILES_DIR=`chezmoi source-path`
+export ZSH="$DOTFILES_DIR/3rdparty/oh-my-zsh"
+
+ZSH_THEME="robbyrussell"
+source $ZSH/oh-my-zsh.sh
